@@ -1,4 +1,4 @@
-import ChatInterface from "@/components/dashboard/ChatInterface";
+import ChatInterfaceReal from "@/components/dashboard/ChatInterfaceReal";
 import ProjectStatus from "@/components/dashboard/ProjectStatus";
 import OptimizationForm from "@/components/dashboard/OptimizationForm";
 import MetricsOverview from "@/components/dashboard/MetricsOverview";
@@ -32,7 +32,7 @@ export default function Home() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <ChatInterface />
+                  <ChatInterfaceReal />
                 </CardContent>
               </Card>
             </TabsContent>
